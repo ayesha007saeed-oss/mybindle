@@ -1,0 +1,16 @@
+/* Custom smoothness for interactive elements */
+.transition-transform {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Scrollbar styling for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF5A4D;
+  border-radius: 10px;
+}
